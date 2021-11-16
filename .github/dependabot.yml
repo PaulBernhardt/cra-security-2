@@ -26,3 +26,4 @@ updates:
       - dependency-name: "redis-mock"
       - dependency-name: "mongodb-memory-server"
       - dependency-name: "supertest"
+      - dependency-name: "webpack-dev-server"
