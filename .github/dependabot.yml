@@ -1,0 +1,28 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "jest*"
+      - dependency-name: "eslint*"
+      - dependency-name: "ts-jest"
+      - dependency-name: "tslint"
+      - dependency-name: "prettier"
+      - dependency-name: "@testing-library/*"
+      - dependency-name: "@types/*"
+      - dependency-name: "@storybook/*"
+      - dependency-name: "cypress"
+      - dependency-name: "husky"
+      - dependency-name: "mockdate"
+      - dependency-name: "rimraf"
+      - dependency-name: "start-server-and-test"
+      - dependency-name: "cross-env"
+      - dependency-name: "nodemon"
+      - dependency-name: "nyc"
+      - dependency-name: "standard-version"
+      - dependency-name: "@commitlint/*"
+      - dependency-name: "redis-mock"
+      - dependency-name: "mongodb-memory-server"
+      - dependency-name: "supertest"
